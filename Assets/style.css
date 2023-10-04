@@ -1,0 +1,82 @@
+h1{
+    color: red;
+    text-align: center;
+}
+
+ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0%;
+    overflow: hidden;
+    background-color: black;
+    position: fixed;
+    top: 0;
+     width: 100%;
+  
+}
+
+li {
+    float: left;
+  }
+
+  li h3{
+    color: white;
+    background-color: red;
+    margin: 0%;
+    padding: 30%;
+    padding-right: 200%;
+
+}
+
+li a {
+    display: block;
+    color: white;
+    padding: 14px 16px;
+    text-decoration: none;
+    text-align: center;
+    margin-left:  60%;
+    white-space: nowrap;
+}
+
+li a:hover{
+background-color: red;
+margin-left:  60%;
+padding: 14px 16px;
+
+}
+
+li img{
+    background-color: red;
+    width: 22px;
+    margin-left: 1850%;
+    margin-top: 45%;
+    
+} 
+
+
+
+li input{
+    text-align: center;
+    margin: 0 auto;
+    width: 500px;
+    margin-left: 80%;
+    margin-top: 2%;
+}
+
+.usImg{
+   width: 150px;
+   margin-left: 50%;
+}
+
+.jpImg{
+    width: 150px;
+    margin-left: 50%;
+
+}
+
+.engImg{
+    width: 150px;
+    margin-left: 50%;
+
+}
+
