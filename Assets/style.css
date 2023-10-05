@@ -1,6 +1,35 @@
+html{
+    background-color: rgb(127, 146, 255);
+
+    font-family: 'Gill Sans', 
+    'Gill Sans MT', 
+    'Trebuchet MS', 
+    sans-serif;
+}
+
+
+
 h1{
     color: red;
     text-align: center;
+    animation-duration: 3s;
+  animation-name: slidein;
+}
+
+@keyframes slidein {
+    from {
+      margin-left: 100%;
+      width: 300%;
+    }
+  
+    to {
+      margin-left: 0%;
+      width: 100%;
+    }
+  }
+
+p{
+    color: white;
 }
 
 ul{
@@ -64,19 +93,22 @@ li input{
 }
 
 .usImg{
+    box-shadow: inset black;
    width: 150px;
-   margin-left: 50%;
+   margin-left: 46%;
 }
 
 .jpImg{
+    box-shadow: inset;
     width: 150px;
-    margin-left: 50%;
+    margin-left: 46%;
 
 }
 
 .engImg{
     width: 150px;
-    margin-left: 50%;
+    text-align: center;
+    margin-left: 46%;
 
 }
 
